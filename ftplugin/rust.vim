@@ -48,7 +48,6 @@ setlocal smartindent nocindent
 if get(g:, 'rust_recommended_style', 1)
     let b:rust_set_style = 1
     setlocal shiftwidth=4 softtabstop=4 expandtab
-    setlocal textwidth=99
 endif
 
 setlocal include=\\v^\\s*(pub\\s+)?use\\s+\\zs(\\f\|:)+
